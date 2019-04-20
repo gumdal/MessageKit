@@ -4,10 +4,12 @@ PODS:
   - MessageInputBar/Core (0.4.1)
   - MessageKit (2.0.0):
     - MessageInputBar/Core
+  - SoundWave (0.1.4)
 
 DEPENDENCIES:
   - MessageInputBar (from `https://github.com/MessageKit/MessageInputBar.git`, branch `master`)
   - MessageKit (from `../`)
+  - SoundWave (from `../VoiceAndKeyboard/SoundWave`)
 
 EXTERNAL SOURCES:
   MessageInputBar:
@@ -15,6 +17,8 @@ EXTERNAL SOURCES:
     :git: https://github.com/MessageKit/MessageInputBar.git
   MessageKit:
     :path: ../
+  SoundWave:
+    :path: ../VoiceAndKeyboard/SoundWave
 
 CHECKOUT OPTIONS:
   MessageInputBar:
@@ -23,8 +27,9 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   MessageInputBar: e81c7535347f1f7b923de7080409a535a004b6e4
-  MessageKit: e86b06ad2eb2d4ddea3ba29c4d9d13edf78843d1
+  MessageKit: e2b9fdb35f2c84f4ff49d6cbd75271f2c9c782a7
+  SoundWave: dac01e9272a7c9dccaca517838c1257b1038bbb0
 
-PODFILE CHECKSUM: 04c1a805e1997e83bacab1a34787e71e9fe4432b
+PODFILE CHECKSUM: 27fdc6a327d09ec995ab45ab1744bee38b5cd9ae
 
 COCOAPODS: 1.4.0

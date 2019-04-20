@@ -1,0 +1,3 @@
+[submodule "VoiceAndKeyboard"]
+	path = VoiceAndKeyboard
+	url = git@github.com:gumdal/VoiceAndKeyboard.git

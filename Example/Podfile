@@ -5,6 +5,8 @@ target 'ChatExample' do
   pod 'MessageKit', :path => '../'
   pod 'MessageInputBar', :git => 'https://github.com/MessageKit/MessageInputBar.git', :branch => 'master'
 
+  pod 'SoundWave', :path => '../VoiceAndKeyboard/SoundWave'
+
 target 'ChatExampleTests' do
   inherit! :search_paths
 end

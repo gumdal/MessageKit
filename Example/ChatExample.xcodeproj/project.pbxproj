@@ -134,6 +134,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D0A1852266209A004EA59A /* Voice and Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Voice and Keyboard";
+			sourceTree = "<group>";
+		};
 		385C2924211FF3310010B4BA /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -231,6 +238,7 @@
 		882B5E771CF7D53600B6E160 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				02D0A1852266209A004EA59A /* Voice and Keyboard */,
 				882B5E781CF7D53600B6E160 /* AppDelegate.swift */,
 				385C2949211FF3930010B4BA /* View Controllers */,
 				385C293A211FF3800010B4BA /* Data Generation */,
@@ -473,11 +481,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-ChatExample/Pods-ChatExample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SoundWave/SoundWave.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SoundWave.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
