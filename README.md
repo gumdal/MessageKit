@@ -36,7 +36,7 @@
 * [**Contact**](#contact)
 * [**Apps using this library**](#apps-using-this-library)
 * [**License**](#license)
-
+* [**Core Data support**](#coredata)
 
 ## Goals
 
@@ -133,6 +133,11 @@ Many thanks to [**the contributors**](https://github.com/MessageKit/MessageKit/g
 
 ## License
 MessageKit is released under the [MIT License](https://github.com/MessageKit/MessageKit/blob/master/LICENSE.md).
+
+## Core Data support
+Core data support has been added in "development" branch of this fork: https://github.com/gumdal/MessageKit/tree/development
+Documentation for the same can be found here: https://github.com/gumdal/MessageKit/blob/development/Documentation/Coredata.md
+The sample application in this source has been updated to include coredata support for demo purpose: https://github.com/gumdal/MessageKit/tree/development/Example
 
 ## Inspiration
 Inspired by [JSQMessagesViewController](https://github.com/jessesquires/JSQMessagesViewController) :point_left: :100:
